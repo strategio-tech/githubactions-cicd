@@ -57,7 +57,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           use_existing_version_if_available: true
           application_name:  github-actions-cicd
-          environment_name: Githubcicdactions-env
+          environment_name: Githubactionscicd-env
           version_label: ${{ github.SHA }}
           region: us-east-1
           deployment_package: githubactions-cicd-0.0.1-SNAPSHOT.jar
